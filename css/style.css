@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #fef9f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+header {
+    background-color: #d4a574;
+    padding: 15px 0px 0px 0px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #c8955c;
+}
+
+nav ul li a.active {
+    background-color: #b8844c;
+}
+
+main {
+    padding: 30px 0;
+    min-height: 500px;
+}
+
+h1 {
+    color: #8b5a2b;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 32px;
+}
+
+h2 {
+    color: #a67c52;
+    margin: 25px 0 15px;
+    border-bottom: 2px solid #e8d8c3;
+    padding-bottom: 8px;
+}
+
+h3 {
+    color: #8b7355;
+    margin: 20px 0 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+img {
+    border-radius: 18px;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    margin-top: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #8b5a2b;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #d4a574;
+    box-shadow: 0 0 5px rgba(212, 165, 116, 0.5);
+}
+
+button {
+    background-color: #d4a574;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: #c8955c;
+}
+
+ul, ol {
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.lesson {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.contact-info {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    margin-top: 20px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #d4a574;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 8px 15px;
+    border: 2px solid #d4a574;
+    border-radius: 4px;
+    transition: all 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #d4a574;
+    color: white;
+}
+
+footer {
+    display: flex;
+    background-color: #8b7355;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.webinar-info {
+    background-color: #f9f0e6;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    border-left: 5px solid #d4a574;
+}
+
+.webinar-info h2 {
+    color: #8b5a2b;
+    border-bottom: none;
+}
+
+.comparison {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.comparison-item {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.comparison-item h3 {
+    text-align: center;
+    color: #8b5a2b;
+}
+
+.highlight {
+    background-color: #f9f0e6;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 20px 0;
+    border-left: 4px solid #d4a574;
+}
+
+.highlight.white {
+    background-color: #ffffff;
+}
