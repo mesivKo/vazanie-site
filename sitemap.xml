@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://mesivko.github.io/vazanie-site/</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://mesivko.github.io/vazanie-site/author.html</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mesivko.github.io/vazanie-site/contacts.html</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mesivko.github.io/vazanie-site/lessons.html</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://mesivko.github.io/vazanie-site/yarn.html</loc>
+    <lastmod>2025-12-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+</urlset>

@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /css/
+Disallow: /js/
+Disallow: /images/
+Allow: /
+
+Sitemap: https://mesivko.github.io/vazanie-site/sitemap.xml
