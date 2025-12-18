@@ -44,11 +44,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #c8955c;
+    text-decoration: underline;
 }
 
 nav ul li a.active {
-    background-color: #b8844c;
+    text-decoration: underline;
 }
 
 main {
