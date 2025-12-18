@@ -19,7 +19,7 @@ body {
 
 
 header {
-    background-color: #8b7355;
+    background-color: #735e45;
     padding: 15px 0px 0px 0px;
 }
 
@@ -190,7 +190,7 @@ li {
 
 footer {
     display: flex;
-    background-color: #8b7355;
+    background-color: #735e45;
     color: white;
     text-align: center;
     justify-content: center;
